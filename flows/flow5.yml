@@ -1,0 +1,22 @@
+completion_text: |-
+  <p>asd asdas dasd asda&nbsp;</p>
+description: |-
+  asd asdasd
+next_flow_id: ''
+next_flow_title: ''
+pages:
+- content: |-
+    <p>asdasdasd</p>
+  id: page10
+  title: Dia 1
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Semana 1
